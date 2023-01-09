@@ -1,0 +1,43 @@
+Côté étudiant :
+
+- option qu'il puisse se créer un compte avec SEULEMENT le mail de la fac (****@cyu.fr)
+- il peut consulter son profil pour le modifier au moment voulu (par exemple, lorsqu'il change d'année)
+
+critères à respecter pour les photos:
+- détecter le formats de photos et rejeter si elle est non  convenante
+- détecter si la taille de l'image correspond bien à celle indiquée
+- détecter si la photo n'est pas seulement un contenu vide (blanc)
+- image stockées sous form binaire dans la base de données (BLOB)
+
+critères à respecter pour les photos:
+- noms et prénoms (avec une certaine taille et vérification de caractères spéciaux)
+
+Autres informations à remplir:
+- groupe de TD et CM
+- formation de l'individu
+
+Côté Enseignant:
+
+- option qu'il puisse se créer un compte avec SEULEMENT le mail de la fac (****@cyu.fr)
+- il peut consulter son profil pour le modifier au moment voulu
+- il a une affichage complète avec l'ensemble des informations de chaque étudiant
+- possibilité de mettre sa photo, mais pas obligé (contrairement aux étudiants)
+- capacité à mettre la main sur les étudiants pour les placer eux-mêmes pour avoir une vue meilleure
+
+Côté développeur:
+
+- choisir des technologies à utiliser (en discussion : PHP, JS, React, Python)
+- vérifier à l'aide des données forunies par la secrétaire si les individus voulant se créer un compte 
+  correspond bien à leur statut (enseignant ou étudiant) (aussi partie BD)
+- le trombinscope doit être trié par ordre alphabétique
+- améliorer la sécurité contre les injections SQL, etc.
+
+Autres fonctionnalités:
+
+- option aux étudiants inscrits de donner leurs avis sur un cours donné
+    - text-area
+    - radius button
+    - questionnaire (qcm)
+    - système de vote
+    - etc. (réfléchir à un meilleur alternatif)
+
