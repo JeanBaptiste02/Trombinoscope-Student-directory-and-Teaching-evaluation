@@ -8,6 +8,7 @@ CREATE TABLE Etudiant(
 	grpCM_etu varchar(2) NOT NULL;
 	grpTD_etu varchar(2) NOT NULL;
 	photo_etu blob NOT NULL;
+	(CHECK mail_etu LIKE %gmail.com)
 );
 
 CREATE TABLE Professeur(
@@ -19,6 +20,7 @@ CREATE TABLE Professeur(
 	dpt_prof varchar(2) NOT NULL;
 	FOREIGN KEY (num_etu) REFERENCES Etudiant(num_etu);
 	photo_etu blob;
+	(CHECK mail_prof LIKE %gmail.com)
 );	
 
 
