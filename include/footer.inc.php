@@ -41,12 +41,12 @@
 </footer>
 
 
-         <!--========== SCROLL UP ==========-->
+         <!--SCROLL UP -->
         <a href="#" class="scrollup" id="scroll-up">
             <i class="ri-arrow-up-line scrollup__icon"></i>
         </a>
 
-        <!--=============== MAIN JS ===============-->
+        <!---fichier JS-->
         <script src="assets/js/main.js"></script>
     </body>
 </html>
