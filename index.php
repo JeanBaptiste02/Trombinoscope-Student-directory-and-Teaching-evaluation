@@ -7,7 +7,7 @@
 ?>
         
         <main class="main">
-            <!--==================== HOME ====================-->
+            <!------------------------ Accueil ----------------------->
             <section class="home" id="home">
                 <img src="https://blog.headway-advisory.com/wp-content/uploads/2018/06/Site-universitaire-de-Saint-Martin-UCP-Droits-universite%CC%81-de-Cergy-Pontoise.jpg" alt="" class="home__img">
 

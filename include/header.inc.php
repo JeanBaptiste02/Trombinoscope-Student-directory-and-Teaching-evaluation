@@ -28,10 +28,10 @@
                             <a href="contacter.php" class="nav__link <?php echo $active_link1;?>">Contacer</a>
                         </li>
                         <li class="nav__item">
-                            <a href="bla.php" class="nav__link <?php echo $active_link1;?>">Formations</a>
+                            <a href="bla.php" class="nav__link <?php echo $active_link2;?>">Formations</a>
                         </li>
                         <li class="nav__item">
-                            <a href="bla.php" class="nav__link <?php echo $active_link1;?>">Se connecter</a>
+                            <a href="bla.php" class="nav__link <?php echo $active_link3;?>">Se connecter</a>
                         </li>
                     </ul>
 
