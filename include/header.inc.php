@@ -13,8 +13,14 @@
       <link rel="stylesheet" href="assets/css/styles.css">
       
       <title><?php echo $titre;?></title>
+
+         <!-- pour le AJAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>   
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+
     </head>
     <body>
+
         <header class="<?php echo $header;?>" id="header">
             <nav class="nav container">
                 <a href="index.php" class="nav__logo">Trombinoscope</a>
@@ -25,13 +31,13 @@
                             <a href="index.php" class="nav__link <?php echo $active_link;?>">Accueil</a>
                         </li>
                         <li class="nav__item">
-                            <a href="contacter.php" class="nav__link <?php echo $active_link1;?>">Contacer</a>
+                            <a href="trom.php" class="nav__link <?php echo $active_link1;?>">Trombinoscope</a>
                         </li>
                         <li class="nav__item">
                             <a href="bla.php" class="nav__link <?php echo $active_link2;?>">Formations</a>
                         </li>
                         <li class="nav__item">
-                            <a href="bla.php" class="nav__link <?php echo $active_link3;?>">Se connecter</a>
+                            <a href="connect.php" class="nav__link <?php echo $active_link3;?>">Se connecter</a>
                         </li>
                     </ul>
 
