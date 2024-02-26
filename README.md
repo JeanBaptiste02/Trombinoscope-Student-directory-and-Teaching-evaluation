@@ -1,5 +1,8 @@
 # Trombinoscope - Projet de Fin de Licence
 
+## MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
 ## Description du Projet
 
 Dans le cadre de notre troisième année de Licence Informatique à CY Cergy Paris Université, notre équipe a développé un trombinoscope en utilisant PHP dans le module Projet d'Intégration. Cette plateforme permet aux utilisateurs de visualiser les visages et les informations des étudiants de manière intuitive. De plus, nous avons intégré une fonctionnalité d'évaluation des enseignements par les étudiants pour améliorer la qualité de l'enseignement.
